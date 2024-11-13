@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(255, 234, 186);
+}
+
+div {
+    border: 3px dotted blue;
+}
+
+p {
+    border: 3px double red;
+    color:lightseagreen;
+    font-size: 20px;
+}
+
+strong {
+    border: 3px double orange;
+    color: palevioletred;
+    font-size: 50px;
+}
+
+span {
+    border: 3px double green;
+    background-color: lightcyan;
+    font-size: 60px;
+    font-style: italic;
+}
+
+small {
+    border: 3px double violet;
+    padding: 10px 30px;
+}
+
+button {
+    border: 3px double yellow;
+    font-size:100px;
+}
+
+i {
+    border: 3px double brown;
+}
+
+b {
+    border: 3px double pink;
+    background-color:blanchedalmond;
+}
