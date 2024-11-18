@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: goldenrod;
+    color: green;
+}
+
+.grid{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color: rgb(255, 94, 0);
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid lightblue;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto 15px auto: */
+    line-height: 35px;
+    padding: 50px;
+    
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.cloud-link{
+    background-color: white !important;
+    border-radius: 50%;
+    opacity: 0.5;
+    width: 30%;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+}
+
+.active{
+    background: brown
+}
+
+.active a{
+    color: blue;
+    border: 3px solid rgb(194, 185, 255);
+}
+
+.active h1{
+    color:chartreuse;
+    font-family:'helvetica';
+}
+
+.active p{
+    color:chartreuse;
+}
