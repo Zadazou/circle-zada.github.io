@@ -17,6 +17,14 @@ function clickInstructions(el) {
        
         console.log("subtitle clicked")
     }
+    if(counter > 4) {
+        let img2 = document.createElement("newimg");
+        let image2Wrapper = document.createElement("div");
+        image2Wrapper.classList.add("newimage");
+        image2Wrapper.appendChild(img2)
+        img.src = "https://i.pinimg.com/control2/736x/34/d0/4c/34d04c478b83628458c5a5183642257e.jpg";
+        document.body.appendChild(img2)
+    }
 }
 
 document.addEventListener("click", function(event) {
@@ -38,12 +46,4 @@ let p = document.createElement("p");
     img.src = "https://i.pinimg.com/736x/33/08/cf/3308cf306f6fd161c50c9c12c2444041.jpg";
     document.body.appendChild(img)
 
-    if(counter > 5) {
-        element.remove(document.getElementById("img"))
-        let img = document.createElement("newimg");
-        let imageWrapper = document.createElement("div");
-        imageWrapper.classList.add("image");
-        imageWrapper.appendChild(img)
-        img.src = "https://i.pinimg.com/control2/736x/34/d0/4c/34d04c478b83628458c5a5183642257e.jpg";
-        document.body.appendChild(img)
-    }
+   
