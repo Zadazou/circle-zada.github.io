@@ -34,26 +34,23 @@ function clickInstructions(el) {
 
     if(counter == 2) {
         outside = document.getElementById("door")
-        outside.style.transform = "scale(1.4)";
+        outside.style.transform = "scale(1.6)";
         outside.style.transition = "transform 0.25s ease";
     }
 
     if(counter == 3) {
         outside = document.getElementById("door")
-        outside.style.transform = "scale(1.5)";
+        outside.style.transform = "scale(1.8)";
         outside.style.transition = "transform 0.25s ease";
     }
 
+   
     if(counter == 4) {
-        let img = document.getElementById('img');
-            let newImg = document.createElement('img');
-            newImg.src = "https://pbs.twimg.com/media/E8PCDsuXEAAkUQw?format=jpg&name=large";
-            img.appendChild(newImg);
-        // let img2 = document.createElement('img2')
-        // img2.src = "https://pbs.twimg.com/media/E8PCDsuXEAAkUQw?format=jpg&name=large"
-        // document.getElementById("img").appendChild(img2)
+        let img = document.getElementById('door');
+        img.src = "lobby.jpeg"
+        img.style.transform = "none"
     }
 }
 document.addEventListener("click", function(event) {
     clickInstructions(event.target)
-});
+})
