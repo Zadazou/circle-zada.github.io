@@ -1,0 +1,452 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+/* #bg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+} */
+.container {
+    position: relative;
+    text-align: center;
+}
+
+button{
+    position: absolute;
+    font-family: "myriad-variable",sans-serif;
+    font-variation-settings: 'wght' 700, 'wdth' 70;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    top: 7%;
+    left: 42%;
+}
+
+img {
+    width:100%;
+    height: auto;
+   z-index: 0;
+}
+
+.text{
+    z-index: 1;
+}
+
+p{
+    position:absolute;
+    top: 10px;
+}
+
+a {
+    position: absolute;
+    z-index: 2;
+    left: 5%;
+    top: 5%;
+}
+
+#back {
+    z-index: 2;
+    position: absolute;
+    scale: 150%;
+}
+#backhome {
+    position:fixed;
+    color: white;
+    font-family: "myriad-variable",sans-serif;
+    font-variation-settings: 'wght' 700, 'wdth' 70;
+    font-size: 14px;
+    top: 7%;
+    left: 1%;
+    transform: rotate(90deg);
+}
+
+#one {
+    transform: rotate(10deg);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 93px;
+    color:rgb(255, 242, 0);
+    top:1%;
+    left: 75%;
+}
+
+#two {
+    font-family: "libertad", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    color:bisque;
+    top: 63%;
+    left: 70%;
+}
+
+#three {
+    transform: rotate(2deg);
+    font-family: "leida", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 53px;
+    color:rgb(119, 232, 218);
+    top:60%;
+    left: 35%;
+}
+
+#four {
+    font-family: "rigid-square", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    top:40%;
+    left: 50%;
+    font-size: 80px;
+    color:rgb(169, 24, 188);
+}
+
+#five {
+    transform: rotate(-5deg);
+    font-family: "galette", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70px;
+    color:rgb(173, 123, 255);
+    top:30%;
+    left: 67%;
+}
+
+#six {
+    transform: rotate(-5deg);
+    font-family: Impact , sans-serif;
+    font-size: 66px;
+    color:rgb(196, 19, 69);
+    top: 50%;
+    left: 16%;
+}
+
+#seven {
+    top: 29%;
+    left:47%;
+    font-size: 38px;
+    color:rgb(32, 171, 141);
+}
+
+#eight {
+    font-family: "jimbo-condensed-std", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    color:rgb(177, 253, 203);
+    top: 20%;
+    left: 58%;
+}
+
+#nine {
+    transform: rotate(6deg);
+    font-family: 'Courier New', monospace;
+    font-size: 52px;
+    color:rgb(255, 149, 96);
+    top: 55%;
+    left: 66%
+}
+
+#ten {
+    transform: rotate(72deg);
+    top: 35%;
+    left: 33%;
+    font-family: "vincente", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    color:rgb(211, 80, 146);
+}
+
+#ele {
+    transform: rotate(1deg);
+    font-family: "Arial Black" , sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    color:rgb(83, 166, 255);
+    top: 15%;
+    left: 5%;
+}
+
+#twe {
+    transform: rotate(6deg);
+    font-family: "reross-rectangular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color:rgb(38, 251, 91);
+    top: 68%;
+    left: 8%;
+}
+
+#thi {
+    font-family: "strenuous", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 43px;
+    color:rgb(251, 155, 38);
+    top: 32%;
+    left: 15%;
+}
+
+#fou {
+    top: 40%;
+    left: 5%;
+    font-size: 78px;
+    color:rgb(0, 136, 20);
+}
+
+#fif {
+    transform: rotate(-45deg);
+    top: 14%;
+    left: 18%;
+    font-size: 22px;
+    color:rgb(139, 193, 169);
+}
+
+#sixth {
+    transform: rotate(45deg);
+    top: 20%;
+    left: 48%;
+    font-size: 22px;
+    color:rgb(213, 100, 69);
+}
+
+#sev {
+    font-family: "rosella-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: rotate(4deg);
+    top: 24%;
+    left: 76%;
+    font-size: 28px;
+    color:rgb(255, 61, 22);
+}
+
+#eig {
+    transform: rotate(-45deg);
+    font-family: "rosella-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: 74%;
+    left: 16%;
+    font-size: 28px;
+    color:rgb(121, 248, 255);
+}
+
+#nin {
+    transform: rotate(-7deg);
+    font-family: "strenuous", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    top: 46%;
+    left: 90%;
+    font-size: 28px;
+    color:rgb(255, 0, 123);
+}
+
+/* .intro{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0.5rem;
+    border: 3px solid gray;
+    z-index: 3;
+} */
+
+#intro{
+    
+    font-family: "myriad-variable",sans-serif;
+    font-variation-settings: 'wght' 700, 'wdth' 70;
+    font-size: 40px;
+    left: 29%;
+    top: 20%;
+    text-align: center;
+    color: white;
+    background-color: rgb(119, 119, 119);
+} 
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slide-in;
+    animation-iteration-count: 1;
+  }
+  
+
+#one:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    
+}
+
+#two:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#three:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#four:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#five:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#six:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#seven:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#eight:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#nine:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#ten:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+#ele:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#twe:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#fiv:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+
+#fou:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#thi:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#sixth:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+#sev:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+
+#eig:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+#nin:hover {
+    animation-name: slide-in, grow-shrink;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+
+
+@keyframes grow-shrink {
+    0%,
+    100% {
+      scale: 100%;
+    }
+  
+    25% {
+      scale: 200%;
+      color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
+  @keyframes slide-out {
+    from {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+  
+    to {
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+  }

@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+img {
+    border: solid 3px;
+    color: black;
+}
+
+.parentbox {
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+#elevator {
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    top: 0;
+    z-index: 0;
+}
+
+a {
+    z-index: 2;
+}
+
+#one {
+    padding: 0;
+    position: absolute;
+    scale: 40%;
+    top: -120px;
+    left: 55px;
+    z-index: 2;
+}
+
+#two {
+    padding: 0;
+    position: absolute;
+    scale: 40%;
+    top: -20px;
+    left: 110px;
+    z-index: 2;
+}
+
+#three {
+    padding: 0;
+    position: absolute;
+    scale: 27%;
+    top: 12px;
+    left: -130px;
+    z-index: 2;
+}
+
+#four {
+    padding: 0;
+    position: absolute;
+    scale: 40%;
+    top: 260px;
+    left: 90px;
+    z-index: 2;
+}
+
+.text {
+    position: absolute;
+    z-index:2;
+    
+}
+
+p {
+    font-family: "myriad-variable",sans-serif;
+    font-variation-settings: 'wght' 700, 'wdth' 70;
+    font-size: 30px;
+    color: rgb(165, 56, 2);
+    display: block;
+    /* border: 3px solid lightblue; */
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto 15px auto: */
+    line-height: 35px;
+    padding: 50px;
+}
+
+#f-1 {
+    position: absolute;
+    top: 70px;
+    right: -1100px;
+    z-index:2;
+    white-space: nowrap;
+}
+
+#f-2 {
+    position: absolute;
+    top: 210px;
+    right: -1100px;
+    z-index:2;
+    white-space: nowrap;
+}
+
+#f-3 {
+    position: absolute;
+    top: 320px;
+    right: -1100px;
+    z-index:2;
+    white-space: nowrap;
+}
+
+#f-4 {
+    position: absolute;
+    top: 460px;
+    right: -1100px;
+    z-index:2;
+    white-space: nowrap;
+}
+

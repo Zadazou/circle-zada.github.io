@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+body {
+    background-color: rgb(50, 48, 47);
+    color: rgb(77, 41, 26);
+}
+
+h1 {
+    padding-top: 200px;
+    padding-left: 50px;
+    color:brown;
+    border: 3px dotted blue;
+}
+
+div {
+    border: 3px dotted blue;
+}
+
+.title {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.images{
+    width: 100%;
+
+
+}
+
+.images img{
+    width:100%;
+}
