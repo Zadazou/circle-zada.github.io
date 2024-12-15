@@ -97,7 +97,7 @@ a.top{
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
-    color:rgb(188, 194, 80);
+    color:rgb(131, 108, 55);
     /* display: block; */
     /* border: 3px solid rgb(70, 105, 105); */
     width: 8%;
@@ -106,7 +106,7 @@ a.top{
     background-color: rgb(177, 226, 226);
     border-radius: 30px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 7px;
     
 }
 
@@ -147,26 +147,26 @@ img {
 
 #one {
     width:370px;
-    top: 28%;
+    top: 29%;
     left: 4%;
 }
 
 #two {
     width:370px;
-    top: 28%;
+    top: 29%;
     left: 31%;
 }
 
 #three {
     width:370px;
     left: 31%;
-    top: 86%;
+    top: 87%;
 }
 
 #four {
     width:370px;
     left: 4%;
-    top: 67%;
+    top: 68%;
 }
 
 .sticky {
@@ -175,6 +175,6 @@ img {
     height:1200px;
     width: 400px;
     position: absolute;
-    top: 26%;
+    top: 27%;
     left: 65%;
 }

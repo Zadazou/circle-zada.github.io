@@ -33,7 +33,7 @@ a.top{
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
-    color:rgb(188, 194, 80);
+    color:rgb(222, 108, 76);
     display: block;
     /* border: 3px solid rgb(70, 105, 105); */
     width: 8%;
@@ -42,7 +42,7 @@ a.top{
     background-color: rgb(177, 226, 226);
     border-radius: 30px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 7px;
     
 }
 
@@ -115,26 +115,26 @@ h2{
 
 #one {
     Height:370px;
-    top: 40%;
+    top: 42%;
     left: 4%;
 }
 
 #two {
     height:370px;
-    top: 40%;
+    top: 42%;
     left: 31%;
 }
 
 #three {
     width:370px;
     left: 31%;
-    top: 90%;
+    top: 92%;
 }
 
 #four {
     width:370px;
     left: 4%;
-    top: 90%;
+    top: 92%;
 }
 
 .sticky {
@@ -143,6 +143,6 @@ h2{
     height:800px;
     width: 400px;
     position: absolute;
-    top: 36%;
+    top: 38%;
     left: 65%;
 }

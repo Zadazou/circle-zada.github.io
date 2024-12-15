@@ -7,8 +7,11 @@ html {
 }
 
 body{
-    background-color: rgb(167, 173, 56);
+    background-color: rgb(122, 47, 57);
+    min-height: 900px;
 }
+
+
 
 h1{
     display: block;
@@ -25,53 +28,12 @@ h1{
     
 }
 
-h2{
-    position:absolute;
-    /* border:3px solid black; */
-    color: rgb(255, 249, 212);
-    font-family: "reross-rectangular", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 57px;
-    text-align: center;
-    margin: 80px auto 40px auto;
-    top:10%;
-    left: 4%;
-}
-
-p.intro {
-    display:block;
-    /* border: 3px solid rgb(70, 105, 105); */
-    font-family: "reross-rectangular", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 22px;
-    color:rgb(255, 249, 212);
-    position: sticky;
-    line-height: 1.6;
-    width: 95%;
-    top: 5%;
-    text-align: center;
-}
-
-p:hover {
-    color:black;
-}
-
-a{
-    text-decoration: none;
-}
-
-#name {
-    color: rgb(255, 249, 212);
-}
-
 a.top{
     font-family: "alfarn-2", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
-    color:rgb(188, 194, 80);
+    color:rgb(122, 47, 57);
     display: block;
     /* border: 3px solid rgb(70, 105, 105); */
     width: 8%;
@@ -102,47 +64,89 @@ div.top{
     padding-bottom: 5px;
 }
 
+a {
+    text-decoration: none;
+    color:rgb(255, 249, 212);
+    font-weight: 800;
+}
+
 .container {
-    /* border:3px solid black; */
-    height: 1000px;
+    height: 1100px;
     display: block;
-    position:relative;
+    position: relative;
     padding-bottom: 20px;
+    /* border: 3px solid black; */
 }
 
 img {
     position: absolute;
-    float: left; 
-    margin: 0px 15px 15px 0px;
-    margin-bottom: 20px;
 }
 
+h2{
+    position:absolute;
+    /* border:3px solid black; */
+    color: rgb(255, 249, 212);
+    font-family: "reross-rectangular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 57px;
+    text-align: center;
+    margin: 80px auto 40px auto;
+    top:10%;
+    left: 5%;
+}
 
+#intro {
+    display:block;
+    /* border: 3px solid rgb(70, 105, 105); */
+    font-family: "reross-rectangular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color:rgb(255, 249, 212);
+    position: sticky;
+    line-height: 1.6;
+    width: 95%;
+    top:35px;
+    text-align: left;
+}
+
+#intro:hover {
+    color:black;
+}
 
 #one {
-    width:400px;
-    top: 28%;
-    left: 4%;
+    width:370px;
+    top: 30%;
+    left: 5%;
 }
 
 #two {
     width:370px;
-    top: 28%;
-    left: 34%;
+    top: 57.5%;
+    left: 5%;
 }
 
 #three {
     width:370px;
-    left: 34%;
-    top: 54%;
+    left: 32%;
+    top: 66%;
 }
+
+#four {
+    width:370px;
+    left: 32%;
+    top: 30%;
+}
+
+
 
 .sticky {
     /* border: 3px solid black; */
     display: block;
-    height:800px;
+    height:600px;
     width: 400px;
     position: absolute;
-    top: 26%;
+    top: 28%;
     left: 65%;
 }
