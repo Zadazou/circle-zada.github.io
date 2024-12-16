@@ -12,17 +12,22 @@ body {
 }
 
 .grid{
-    background-color: rgb(238, 238, 238);
+    /* background-color: rgb(238, 238, 238); */
     display: flex;
     flex-wrap: wrap;
 }
 
 a {
-    color: rgb(255, 94, 0);
+    font-family: "jimbo-condensed-std", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(192, 70, 0);
     display: block;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     border: 3px solid lightblue;
+    border-radius: 10px;
     width: 50%;
     margin-bottom: 15px;
     margin-left: auto;
@@ -39,6 +44,11 @@ h1 {
 
 p {
     font-size: 20px;
+}
+
+img {
+    width: 40%;
+    margin-left: auto;
 }
 
 .cloud-link{

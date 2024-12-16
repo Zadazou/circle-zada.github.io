@@ -1,0 +1,7 @@
+[submodule "Unit 3 project"]
+  path = /furniture-tour/Chair.html
+  url = https://zadazou.github.io/circle-zada/
+
+[submodule "place"]
+    path = /place/elevator.html
+    url = https://zadazou.github.io/circle-zada/
